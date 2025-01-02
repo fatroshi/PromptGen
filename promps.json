@@ -1,82 +1,157 @@
 {
   "categories": [
     {
-      "category": "Creativity",
-      "description": "Use AI to create ideas, content, and stories.",
-      "examples": [
-        {
-          "title": "AI as a Brainstorming Assistant (Idea Generator)",
-          "prompt": "You are a creative strategist. I need your help coming up with [specific ideas]. Focus on [specific criteria] and provide a clear and categorized list. Here’s the context: [brief explanation of what I’m working on]. Think creatively and include unconventional or cutting-edge options.",
-          "example_use_case": "I’m writing a blog for [niche topic, e.g., eco-friendly travel]. Can you generate a list of 10 unique blog post ideas with clickable headlines, accompanied by 1–2 sentences explaining each?"
-        },
-        {
-          "title": "AI as a Social Media Content Creator",
-          "prompt": "You are a social media manager. I need help crafting engaging [platform-specific content, e.g., Instagram captions, Twitter posts]. Here’s the topic: [insert topic]. Include hashtags, a call-to-action, and ensure that the tone matches [desired tone, e.g., professional, casual, inspiring].",
-          "example_use_case": "Help me write 3 Instagram captions for a sustainable fashion brand. The focus is on eco-friendly materials, minimalist designs, and promoting sales."
-        },
-        {
-          "title": "AI as a Fiction Writing Assistant",
-          "prompt": "You are a professional fiction writer and editor. I need help developing a story idea in [genre]. Please generate [specific element, e.g., character backstories, dialogue examples, or detailed world-building]. Keep the tone consistent with [specific tone or reference point, e.g., Harry Potter-style fantasy or sci-fi dystopia].",
-          "example_use_case": "Help me create a compelling dialogue between two rival adventurers who have to work together reluctantly. The dialogue should hint at their shared past but with tension and humor."
-        }
-      ]
-    },
-    {
-      "category": "Productivity",
-      "description": "Boost organization and manage tasks with AI.",
-      "examples": [
-        {
-          "title": "AI as a Productivity Coach",
-          "prompt": "You are a productivity expert. I’m overwhelmed by my tasks, and I need help creating a prioritized to-do list for the day. Here are my tasks: [insert tasks]. Please organize these by priority (urgent vs. important), suggest how much time I should allocate to each, and recommend a time-blocking schedule for peak efficiency.",
-          "example_use_case": "I have a report to write, three meetings to attend, emails to catch up on, and I need 90 minutes for personal study. Help me stay organized for a productive day."
-        },
-        {
-          "title": "AI as a Responsive Email Assistant",
-          "prompt": "You are a professional email assistant. Write a polite, concise email in response to [specific situation]. Match the tone to [desired tone, e.g., formal, friendly, professional]. Ensure correct grammar and appropriate formatting.",
-          "example_use_case": "I received a client inquiry about my services, but their budget is too low. Craft a polite response offering alternative solutions or letting them know I can’t proceed within that budget range."
-        }
-      ]
-    },
-    {
-      "category": "Programming",
-      "description": "Solve coding problems or create scripts with AI.",
-      "examples": [
-        {
-          "title": "AI as a Complex Data Analyst (Excel/GSheets Helper)",
-          "prompt": "You are a data analyst who specializes in working with Excel and Google Sheets. Please help me solve the following problem: [insert problem, e.g., 'write a formula for conditional formatting that highlights duplicate values across multiple columns']. Provide step-by-step instructions, and if applicable, suggest alternative methods.",
-          "example_use_case": "Write an advanced Excel formula that calculates the total sales revenue, filtering rows only where the sales date is within the last 30 days and the product category equals 'A.' Use SUMIFS or alternative functions."
-        },
-        {
-          "title": "AI as a Code Debugger (Technical Problem Solver)",
-          "prompt": "You are an expert programmer with deep knowledge of [programming language]. I’m facing an issue in my code, and here’s the snippet: ``` [insert code here] ``` The error message I’m receiving is: [insert error message]. Please identify the problem, explain why it’s happening, and rewrite the code with the necessary fixes.",
-          "example_use_case": "My JavaScript function isn’t sending a POST request correctly. Can you debug and rewrite it to ensure the payload is sent correctly using the `fetch` method?"
-        }
-      ]
-    },
-    {
       "category": "Business",
-      "description": "Create strategies, contracts, or materials with AI.",
+      "description": "Create strategies, contracts, or materials for business needs.",
       "examples": [
         {
-          "title": "AI as a Marketing Campaign Strategist",
+          "title": "Marketing Campaign Strategist",
           "prompt": "You are a marketing strategist. Help me design a promotional campaign for [product/service]. My target audience is [describe audience]. Focus on [desired result, e.g., increasing leads, driving engagement, improving brand awareness]. Suggest key messaging, channels, and specific action steps to execute the plan.",
           "example_use_case": "I’m launching a productivity app targeted at remote workers. Create an email marketing campaign with a 3-email sequence highlighting its key features and offering a free trial."
         },
         {
-          "title": "AI as a Legal Document Drafter & Explainer",
-          "prompt": "You are a legal expert. I need help creating or editing a legal document: [name/type of document]. Here’s the situation: [explain use case]. Ensure the language is professional, clear, and compliant with [jurisdiction-specific laws, if necessary]. After drafting, provide a brief explanation of the key clauses.",
-          "example_use_case": "I need help drafting a freelance contract for a graphic designer. Ensure clauses for payment terms, intellectual property, and deadlines are included."
+          "title": "Competitor Analysis Report",
+          "prompt": "You are a business analyst. Create a detailed competitor analysis for [industry/product/service]. Include key competitors, market positioning, pricing strategy, strengths, weaknesses, and any opportunities where we can gain a strategic advantage.",
+          "example_use_case": "Create a competitor analysis for an eco-friendly water bottle brand entering the U.S. market."
+        },
+        {
+          "title": "Customer Persona Development",
+          "prompt": "You are a marketing expert. Help me create detailed customer personas for [product/service]. Include demographics, psychographics, pain points, goals, preferred channels for outreach, and buying behaviors.",
+          "example_use_case": "Develop customer personas for an online language learning platform targeted at beginner-level English learners globally."
+        },
+        {
+          "title": "Business Proposal Drafting",
+          "prompt": "You are a professional business consultant. Help me draft a proposal to pitch [product/service idea] to [target audience, e.g., investors, stakeholders]. The proposal should include an executive summary, company overview, problem statement, solution, market analysis, and financial projections.",
+          "example_use_case": "I need to pitch a cloud-based inventory management system to medium-sized retailers. Create a professional business proposal draft."
+        },
+        {
+          "title": "Strategic Partnership Proposal",
+          "prompt": "You are a business strategist. Help me write a professional partnership proposal to collaborate with [business/organization]. The proposal should include a clear value proposition, mutual benefits, potential outcomes, and terms of collaboration.",
+          "example_use_case": "Draft a strategic partnership proposal between a local farmers' market and a meal planning app."
+        }
+      ]
+    },
+    {
+      "category": "Creativity",
+      "description": "Generate ideas, content, and stories.",
+      "examples": [
+        {
+          "title": "Brainstorming Innovative Product Ideas",
+          "prompt": "You are an innovator. Help me brainstorm [specific number] new product ideas in the [specific industry]. Provide some creative and actionable concepts with a brief explanation for each.",
+          "example_use_case": "Brainstorm 5 innovative product ideas in the personal wellness industry for 2024."
+        },
+        {
+          "title": "Content Calendar Planning",
+          "prompt": "You are a skilled content planner. Help me design a month-long content calendar for [specific platform(s), e.g., Instagram, Blog]. The content should include themes, post ideas, and engagement strategies for each day.",
+          "example_use_case": "Create an Instagram content calendar for a fitness coaching business with a motivational and educational tone."
+        },
+        {
+          "title": "Developing a Fictional World",
+          "prompt": "You are an experienced world-building expert. Help me design a detailed fictional universe for a [fantasy/sci-fi] story. Include the political structure, geography, cultural aspects, and a brief history.",
+          "example_use_case": "Create a fictional world for a high-fantasy novel centered on magic and ancient rivalries between kingdoms."
+        },
+        {
+          "title": "Creating Taglines and Slogans",
+          "prompt": "You are an advertising expert. Generate [specific number] taglines and slogans for [brand/product/service]. The tone should be [desired tone, e.g., futuristic, playful, inspiring], and the messaging should align with the brand's values.",
+          "example_use_case": "Generate 5 slogans for a sustainable clothing brand targeting Gen Z consumers."
+        },
+        {
+          "title": "Creative Writing Prompts",
+          "prompt": "You are a creative writing tutor. Provide [specific number] unique and engaging short story prompts for [genre]. Include a brief setup, key characters, and a conflict to resolve.",
+          "example_use_case": "Provide 3 short story prompts for a dystopian science-fiction anthology."
         }
       ]
     },
     {
       "category": "Education",
-      "description": "Learn topics and practice skills with AI.",
+      "description": "Learn and practice topics efficiently.",
       "examples": [
         {
-          "title": "AI as a Personalized Study Companion (AI Tutor)",
-          "prompt": "You are a knowledgeable tutor with expertise in [Subject]. Teach me the following topic: [specific topic or concept]. Provide simple, clear explanations broken into steps, and quiz me at the end with 3–5 questions to test my knowledge.",
-          "example_use_case": "I’m trying to learn Python programming. Teach me how to use dictionaries effectively, with examples of common use cases, an explanation of how they work, and a small coding exercise for practice."
+          "title": "Math Problem Solver",
+          "prompt": "You are a math tutor. Explain step-by-step how to solve the following problem: [insert math problem]. Make the explanation easy to follow for a [specific education level, e.g., high school, college].",
+          "example_use_case": "Explain how to solve a quadratic equation and highlight when to use the quadratic formula."
+        },
+        {
+          "title": "Exam Preparation Quiz",
+          "prompt": "You are an exam preparation expert for [subject]. Create a [specific type of exam, e.g., multiple choice, true/false] quiz containing [specific number] questions for me to practice. Provide answers and explanations afterward.",
+          "example_use_case": "Create a 10-question multiple-choice quiz on basic biology concepts with explanations for each answer."
+        },
+        {
+          "title": "Language Learning Practice",
+          "prompt": "You are a language tutor for [specific language]. Create a vocabulary list of [specific number] commonly used words/phrases related to [specific topic] with examples of how to use them in sentences.",
+          "example_use_case": "Create a list of 20 travel-related phrases in Spanish with example sentences."
+        },
+        {
+          "title": "History Teacher",
+          "prompt": "You are a history expert. Provide a detailed explanation of [historical event/topic]. Break it into a timeline or key steps to make it easy to understand for students.",
+          "example_use_case": "Explain the key events leading to the fall of the Roman Empire."
+        },
+        {
+          "title": "Study Plan Creation",
+          "prompt": "You are a study coach. Help me create a 4-week study plan to prepare for [specific exam/subject]. Include daily goals, topics to cover, and recommended resources.",
+          "example_use_case": "Create a study plan for the GRE math section with daily practice tasks."
+        }
+      ]
+    },
+    {
+      "category": "Productivity",
+      "description": "Organize tasks and manage workload efficiently.",
+      "examples": [
+        {
+          "title": "Daily Task Manager",
+          "prompt": "You are a productivity expert. Create a prioritized task list based on the following inputs: [list of tasks, deadlines, level of importance]. Suggest time allocations and include breaks where necessary.",
+          "example_use_case": "Help me prioritize my tasks for a packed Monday involving client calls, a report deadline, and personal errands."
+        },
+        {
+          "title": "Project Timeline Planner",
+          "prompt": "You are a project manager. Design a detailed timeline for completing [specific project]. Specify important milestones, deadlines, and steps to follow within [specific time frame].",
+          "example_use_case": "Plan a 6-month timeline for launching a new website, including design, content, and testing phases."
+        },
+        {
+          "title": "Time Blocking Schedule",
+          "prompt": "You are a time management specialist. Create a time-blocking schedule for my workday based on the following tasks and deadlines: [list of tasks and approximate time available].",
+          "example_use_case": "Create a time-blocking schedule for a full day to finish coding tasks, review meetings, and preparing a presentation."
+        },
+        {
+          "title": "Email Draft for Delegation",
+          "prompt": "You are a professional email assistant. Help me draft an email to delegate a task to [recipient]. Include all relevant details such as deadlines, expectations, and resources to assist them.",
+          "example_use_case": "Write a delegation email requesting a colleague to complete a sales report by Friday."
+        },
+        {
+          "title": "Weekly Reflection Template",
+          "prompt": "You are a productivity coach. Create a reflection template for reviewing my weekly performance. Include sections for accomplishments, lessons learned, unfinished tasks, and improvements for the next week.",
+          "example_use_case": "Create a template to review and improve my weekly productivity as a team manager."
+        }
+      ]
+    },
+    {
+      "category": "Programming",
+      "description": "Solve coding problems and create optimized scripts.",
+      "examples": [
+        {
+          "title": "Qt Application Development",
+          "prompt": "You are an expert in Qt (version 6.7) application development. Write backend C++ code to handle a counter's logic and connect it to a QML frontend UI file that includes buttons to increment and reset the counter. Also, explain how the backend interacts with the frontend.",
+          "example_use_case": "Build a Qt desktop application where a QML-based UI communicates seamlessly with a C++ backend for managing a counter."
+        },
+        {
+          "title": "Advanced Problem Debugging",
+          "prompt": "You are a programming expert. Help me debug the following code in [programming language]. Provide the root cause of the issue, improve it using best practices, and explain the fix step-by-step: [insert code snippet].",
+          "example_use_case": "Debug a Python script that throws a KeyError when accessing specific elements in a dictionary."
+        },
+        {
+          "title": "API Integration Assistance",
+          "prompt": "You are an API integration expert. Help me connect a [specific API] to my project using [programming language or framework]. Explain the setup step-by-step and include detailed examples.",
+          "example_use_case": "Integrate Twitter's API with a Flask Python app to fetch and display user tweets."
+        },
+        {
+          "title": "Algorithm Optimization",
+          "prompt": "You are a computer science expert. Optimize the following algorithm for [specific purpose] to improve efficiency. Provide the revised algorithm, explain the improvements, and include time complexity analysis: [insert code].",
+          "example_use_case": "Optimize a bubble sort algorithm to use a more efficient sorting method like quicksort or mergesort."
+        },
+        {
+          "title": "Database Query Optimization",
+          "prompt": "You are a database specialist. Optimize the following SQL query for speed and efficiency. Explain why the original query is slow and how your optimization resolves the issue: [insert query].",
+          "example_use_case": "Optimize a SQL query that performs a join on three large tables to reduce execution time."
         }
       ]
     }
