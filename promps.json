@@ -125,78 +125,78 @@
       ]
     },
     {
-     "category": "Programming",
+    "category": "Programming",
       "description": "Solve coding problems and create optimized scripts.",
       "examples": [
         {
-          "title": "Qt Application Development",
-          "prompt": "You are an expert in Qt (version 6.7) application development. Write backend C++ code to handle a counter's logic and connect it to a QML frontend UI file that includes buttons to increment and reset the counter. Also, explain how the backend interacts with the frontend.",
-          "example_use_case": "Build a Qt desktop application where a QML-based UI communicates seamlessly with a C++ backend for managing a counter."
+          "title": "C | Mastering Pointers and Memory Management",
+          "prompt": "You are a C programming expert. Explain how to use pointers effectively, including declaring and manipulating them. Also, demonstrate the use of `malloc`, `calloc`, and `free` for dynamic memory allocation, ensuring best practices to avoid memory leaks.",
+          "example_use_case": "Write a C program that dynamically allocates memory for an array, stores user inputs, and properly frees the memory after use."
         },
         {
-          "title": "Java Multithreading Example",
-          "prompt": "You are an expert in Java programming. Write an example that demonstrates the usage of multithreading with `Runnable` and `Thread` classes. Include a scenario where multiple threads compute the sum of different segments of an array and then combine their results into a single value.",
-          "example_use_case": "Use Java to split an array into segments, compute partial sums concurrently, and combine the results using multithreading."
+          "title": "Django | Working with Models and QuerySets",
+          "prompt": "You are a Django developer. Explain how to create models in Django, define relationships, and use QuerySets to perform CRUD (Create, Read, Update, Delete) operations. Include examples of filtering data and updating database records.",
+          "example_use_case": "Develop a Django application to manage a products database with search and filtering functionality in the admin dashboard."
         },
         {
-          "title": "JavaScript Event Handling",
-          "prompt": "You are a JavaScript expert. Write code to handle a form submission event. Validate the input fields (e.g., email and password), prevent the default form submission behavior, and display appropriate error messages if the validation fails.",
-          "example_use_case": "Handle form submission in a front-end application to ensure all required fields are filled and valid before submission."
+          "title": "Flask | Building a Minimal RESTful API",
+          "prompt": "You are a Flask developer. Describe how to create a RESTful API using Flask, including setting up route handlers for GET, POST, and DELETE requests. Use Flask-RESTful for better API structuring, and return JSON responses for client consumption.",
+          "example_use_case": "Build a Flask-based to-do list API that supports adding tasks, deleting tasks, and retrieving the current list of tasks in JSON format."
         },
         {
-          "title": "Python Data Analysis with Pandas",
-          "prompt": "You are a Python expert in data analysis. Write code to analyze a dataset using Pandas. Perform operations to clean the data, filter rows based on conditions, calculate summary statistics, and create a simple visualization using Matplotlib.",
-          "example_use_case": "Analyze a CSV file containing sales data, clean null values, and plot sales trends using Python."
+          "title": "Go | Using Goroutines and Channels",
+          "prompt": "You are a Go (Golang) developer. Explain the fundamentals of Go's concurrency primitives, including goroutines and channels. Provide an example to launch multiple goroutines that calculate the sum of subsets of an array and combine their results.",
+          "example_use_case": "Use Go’s concurrency model to build scalable applications that process data in parallel for optimal performance."
         },
         {
-          "title": "TypeScript Object Interfaces",
-          "prompt": "You are a TypeScript developer. Create an example showing how to define and use interfaces for validating the structure of an object. Use a scenario like a `User` object with properties such as `name`, `email`, and `role`. Then demonstrate how to check the type safety in a function.",
-          "example_use_case": "Show how TypeScript interfaces can validate the structure of a `User` object in a practical application."
+          "title": "Java | Object-Oriented Programming and Exception Handling",
+          "prompt": "You are a Java expert. Explain core Java concepts including object-oriented programming principles, inheritance, and exception handling. Provide code examples to demonstrate how to create classes, catch and handle exceptions, and design reusable methods.",
+          "example_use_case": "Learn how to write robust and reusable Java applications using OOP and proper error-handling techniques."
         },
         {
-          "title": "C Pointer Operations",
-          "prompt": "You are a C programming expert. Write code that demonstrates the use of pointers for dynamic memory allocation and manipulation. Show how to use `malloc`, `calloc`, and `free`, and explain how to avoid memory leaks.",
-          "example_use_case": "Use C pointers to dynamically allocate and manage memory for an array, storing and modifying its elements."
+          "title": "JavaScript | ES6+ Features and DOM Manipulation",
+          "prompt": "You are a JavaScript expert. Explain modern ES6+ features such as `let`, `const`, arrow functions, destructuring, template literals, and Promises. Then demonstrate how to manipulate the DOM to build dynamic interactive web pages.",
+          "example_use_case": "Use JavaScript to add dynamic functionality like form validation and interactive UI elements to web applications."
         },
         {
-          "title": "Building a Laravel API",
-          "prompt": "You are a Laravel developer. Write code to create a RESTful API in Laravel. Include an example for building an `Article` resource with endpoints for creating, reading, updating, and deleting articles. Also, include route definitions and a brief explanation of middleware setup.",
-          "example_use_case": "Build a CRUD RESTful API in Laravel for managing articles in a web application."
+          "title": "Laravel | Building a CRUD Application",
+          "prompt": "You are a Laravel developer. Explain how to set up a basic CRUD application using Laravel. Cover routing, controllers, Eloquent models, and blade templates. Provide an example of creating, reading, updating, and deleting `Post` objects in a blog.",
+          "example_use_case": "Build a Laravel-based blog platform with a user-friendly dashboard for managing posts."
         },
         {
-          "title": "PHP File Upload Handler",
-          "prompt": "You are a PHP developer. Write code to handle file uploads on a server. Include validation for file type (e.g., images only), file size, and error handling. Save the uploaded file to a directory and return a success message.",
-          "example_use_case": "Create a PHP backend to handle secure and validated file uploads from a client web application."
+          "title": "Node.js | File System Operations with `fs` Module",
+          "prompt": "You are a Node.js expert. Explain how to use the `fs` module for basic file system operations, like reading, writing, renaming, and deleting files. Provide examples of asynchronous operations using Promises or callbacks.",
+          "example_use_case": "Write a Node.js program that reads user data from a text file, appends timestamps, and writes the updated contents to a new file."
         },
         {
-          "title": "Node.js File System Example",
-          "prompt": "You are a Node.js expert. Write code that reads a file from the filesystem, modifies its contents (e.g., adding timestamps to each line), and saves the modified file in the same directory using the `fs` module.",
-          "example_use_case": "Create a Node.js script to process log files by appending timestamps to each line."
+          "title": "PHP | File Upload Validation and Handling",
+          "prompt": "You are a PHP developer. Explain how to build a secure file upload handler. Include validation techniques for file size and type, error handling, saving uploaded files to a server, and providing feedback to users.",
+          "example_use_case": "Create a PHP-based file upload form that accepts image files and rejects unsupported formats or oversized files."
         },
         {
-          "title": "React with TypeScript Component",
-          "prompt": "You are an expert in React with TypeScript. Write a functional component for displaying a list of items. Include prop type definitions using TypeScript and handle scenarios where the list is empty (e.g., display a placeholder message).",
-          "example_use_case": "Build a reusable React component in TypeScript that displays a list of users with type safety."
+          "title": "Python | Data Structures and File Handling",
+          "prompt": "You are a Python expert. Explain essential Python concepts such as lists, dictionaries, and tuples, and how to handle files (e.g., reading and writing text files). Provide examples for processing and analyzing structured data efficiently.",
+          "example_use_case": "Use Python to automate tasks like parsing large text files and processing data into structures like dictionaries."
         },
         {
-          "title": "Rust Error Handling Example",
-          "prompt": "You are a Rust developer. Write an example that demonstrates how to handle errors using the `Result` type. Use a scenario where you read data from a file and handle cases where the file might not exist or have incorrect data formatting.",
-          "example_use_case": "Demonstrate Rust's `Result` type and error propagation for robust file reading."
+          "title": "Qt | Structuring Applications with C++ and QML",
+          "prompt": "You are a Qt developer specializing in Qt version 6.7. Explain how to structure a Qt application where C++ serves as the backend and QML as the frontend. Provide best practices for managing communication between the two layers using QObject, signals, and slots.",
+          "example_use_case": "Build a Qt desktop application where user interface events in QML trigger C++ backend logic for dynamic data handling."
         },
         {
-          "title": "Go Concurrency with Goroutines",
-          "prompt": "You are a Go programming expert. Write an example demonstrating the use of goroutines and channels to calculate the sum of numbers from 1 to 100 by splitting the task across multiple goroutines and combining their results through a channel.",
-          "example_use_case": "Use Go's goroutines to process tasks concurrently and communicate results through channels."
+          "title": "React + TypeScript | Building Type-Safe Components",
+          "prompt": "You are a React developer using TypeScript. Explain how to create functional components with props and state typing. Provide a reusable component example with `prop` validations and type enforcement for handling events like a button click.",
+          "example_use_case": "Develop a React component in TypeScript that displays a type-safe list of users retrieved from an API."
         },
         {
-          "title": "Django ORM for Database Queries",
-          "prompt": "You are a Django backend developer. Demonstrate how to use Django ORM for database queries. Create a `Product` model and write queries to filter products based on price, update their details, and delete records.",
-          "example_use_case": "Use Django ORM to perform CRUD operations on the `Product` model."
+          "title": "Rust | Error Handling with `Result` and `Option`",
+          "prompt": "You are a Rust expert. Explain how to utilize `Result` and `Option` enums for error handling. Showcase examples of safely reading data from a file and handling errors like missing files or invalid formats, using the `?` operator and pattern matching.",
+          "example_use_case": "Write a Rust program that reads configuration settings from a file, validates them, and handles missing keys gracefully."
         },
         {
-          "title": "Flask API Development",
-          "prompt": "You are a Flask developer. Write code to build a simple RESTful API in Flask. Include endpoints to create, read, update, and delete `Task` objects, and ensure the use of `Flask-RESTful` for better structuring.",
-          "example_use_case": "Build a to-do list API in Flask with complete CRUD functionality."
+          "title": "TypeScript | Type Safety and Interfaces",
+          "prompt": "You are a TypeScript developer. Explain how to create type-safe applications by using interfaces, type annotations, and generics. Showcase an example where strong typing prevents runtime errors in a function that processes user objects.",
+          "example_use_case": "Write a strongly-typed function in TypeScript that validates and processes a list of user objects with predictable behavior."
         }
       ]
     }
