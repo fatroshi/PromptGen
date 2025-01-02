@@ -125,7 +125,7 @@
       ]
     },
     {
-      "category": "Programming",
+     "category": "Programming",
       "description": "Solve coding problems and create optimized scripts.",
       "examples": [
         {
@@ -134,24 +134,69 @@
           "example_use_case": "Build a Qt desktop application where a QML-based UI communicates seamlessly with a C++ backend for managing a counter."
         },
         {
-          "title": "Advanced Problem Debugging",
-          "prompt": "You are a programming expert. Help me debug the following code in [programming language]. Provide the root cause of the issue, improve it using best practices, and explain the fix step-by-step: [insert code snippet].",
-          "example_use_case": "Debug a Python script that throws a KeyError when accessing specific elements in a dictionary."
+          "title": "Java Multithreading Example",
+          "prompt": "You are an expert in Java programming. Write an example that demonstrates the usage of multithreading with `Runnable` and `Thread` classes. Include a scenario where multiple threads compute the sum of different segments of an array and then combine their results into a single value.",
+          "example_use_case": "Use Java to split an array into segments, compute partial sums concurrently, and combine the results using multithreading."
         },
         {
-          "title": "API Integration Assistance",
-          "prompt": "You are an API integration expert. Help me connect a [specific API] to my project using [programming language or framework]. Explain the setup step-by-step and include detailed examples.",
-          "example_use_case": "Integrate Twitter's API with a Flask Python app to fetch and display user tweets."
+          "title": "JavaScript Event Handling",
+          "prompt": "You are a JavaScript expert. Write code to handle a form submission event. Validate the input fields (e.g., email and password), prevent the default form submission behavior, and display appropriate error messages if the validation fails.",
+          "example_use_case": "Handle form submission in a front-end application to ensure all required fields are filled and valid before submission."
         },
         {
-          "title": "Algorithm Optimization",
-          "prompt": "You are a computer science expert. Optimize the following algorithm for [specific purpose] to improve efficiency. Provide the revised algorithm, explain the improvements, and include time complexity analysis: [insert code].",
-          "example_use_case": "Optimize a bubble sort algorithm to use a more efficient sorting method like quicksort or mergesort."
+          "title": "Python Data Analysis with Pandas",
+          "prompt": "You are a Python expert in data analysis. Write code to analyze a dataset using Pandas. Perform operations to clean the data, filter rows based on conditions, calculate summary statistics, and create a simple visualization using Matplotlib.",
+          "example_use_case": "Analyze a CSV file containing sales data, clean null values, and plot sales trends using Python."
         },
         {
-          "title": "Database Query Optimization",
-          "prompt": "You are a database specialist. Optimize the following SQL query for speed and efficiency. Explain why the original query is slow and how your optimization resolves the issue: [insert query].",
-          "example_use_case": "Optimize a SQL query that performs a join on three large tables to reduce execution time."
+          "title": "TypeScript Object Interfaces",
+          "prompt": "You are a TypeScript developer. Create an example showing how to define and use interfaces for validating the structure of an object. Use a scenario like a `User` object with properties such as `name`, `email`, and `role`. Then demonstrate how to check the type safety in a function.",
+          "example_use_case": "Show how TypeScript interfaces can validate the structure of a `User` object in a practical application."
+        },
+        {
+          "title": "C Pointer Operations",
+          "prompt": "You are a C programming expert. Write code that demonstrates the use of pointers for dynamic memory allocation and manipulation. Show how to use `malloc`, `calloc`, and `free`, and explain how to avoid memory leaks.",
+          "example_use_case": "Use C pointers to dynamically allocate and manage memory for an array, storing and modifying its elements."
+        },
+        {
+          "title": "Building a Laravel API",
+          "prompt": "You are a Laravel developer. Write code to create a RESTful API in Laravel. Include an example for building an `Article` resource with endpoints for creating, reading, updating, and deleting articles. Also, include route definitions and a brief explanation of middleware setup.",
+          "example_use_case": "Build a CRUD RESTful API in Laravel for managing articles in a web application."
+        },
+        {
+          "title": "PHP File Upload Handler",
+          "prompt": "You are a PHP developer. Write code to handle file uploads on a server. Include validation for file type (e.g., images only), file size, and error handling. Save the uploaded file to a directory and return a success message.",
+          "example_use_case": "Create a PHP backend to handle secure and validated file uploads from a client web application."
+        },
+        {
+          "title": "Node.js File System Example",
+          "prompt": "You are a Node.js expert. Write code that reads a file from the filesystem, modifies its contents (e.g., adding timestamps to each line), and saves the modified file in the same directory using the `fs` module.",
+          "example_use_case": "Create a Node.js script to process log files by appending timestamps to each line."
+        },
+        {
+          "title": "React with TypeScript Component",
+          "prompt": "You are an expert in React with TypeScript. Write a functional component for displaying a list of items. Include prop type definitions using TypeScript and handle scenarios where the list is empty (e.g., display a placeholder message).",
+          "example_use_case": "Build a reusable React component in TypeScript that displays a list of users with type safety."
+        },
+        {
+          "title": "Rust Error Handling Example",
+          "prompt": "You are a Rust developer. Write an example that demonstrates how to handle errors using the `Result` type. Use a scenario where you read data from a file and handle cases where the file might not exist or have incorrect data formatting.",
+          "example_use_case": "Demonstrate Rust's `Result` type and error propagation for robust file reading."
+        },
+        {
+          "title": "Go Concurrency with Goroutines",
+          "prompt": "You are a Go programming expert. Write an example demonstrating the use of goroutines and channels to calculate the sum of numbers from 1 to 100 by splitting the task across multiple goroutines and combining their results through a channel.",
+          "example_use_case": "Use Go's goroutines to process tasks concurrently and communicate results through channels."
+        },
+        {
+          "title": "Django ORM for Database Queries",
+          "prompt": "You are a Django backend developer. Demonstrate how to use Django ORM for database queries. Create a `Product` model and write queries to filter products based on price, update their details, and delete records.",
+          "example_use_case": "Use Django ORM to perform CRUD operations on the `Product` model."
+        },
+        {
+          "title": "Flask API Development",
+          "prompt": "You are a Flask developer. Write code to build a simple RESTful API in Flask. Include endpoints to create, read, update, and delete `Task` objects, and ensure the use of `Flask-RESTful` for better structuring.",
+          "example_use_case": "Build a to-do list API in Flask with complete CRUD functionality."
         }
       ]
     }
