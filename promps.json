@@ -1,204 +1,54 @@
+```json
 {
   "categories": [
     {
-      "category": "Business",
-      "description": "Create strategies, contracts, or materials for business needs.",
+      "category": "Web Development Frameworks",
+      "description": "Prompts designed for exploring and utilizing the most popular frameworks in 2024, covering frontend, backend, and full-stack development.",
       "examples": [
         {
-          "title": "Marketing Campaign Strategist",
-          "prompt": "You are a marketing strategist. Help me design a promotional campaign for [product/service]. My target audience is [describe audience]. Focus on [desired result, e.g., increasing leads, driving engagement, improving brand awareness]. Suggest key messaging, channels, and specific action steps to execute the plan.",
-          "example_use_case": "I’m launching a productivity app targeted at remote workers. Create an email marketing campaign with a 3-email sequence highlighting its key features and offering a free trial."
+          "title": "Creating a Robust App with React.js",
+          "name": "React",
+          "prompt": "You are an expert React developer. Provide a step-by-step approach to building a single-page application with React.js using the latest features introduced in 2024. Include optimization techniques and best practices.",
+          "icon": null,
+          "use_case": "Guiding a developer in building a modern React application."
         },
         {
-          "title": "Competitor Analysis Report",
-          "prompt": "You are a business analyst. Create a detailed competitor analysis for [industry/product/service]. Include key competitors, market positioning, pricing strategy, strengths, weaknesses, and any opportunities where we can gain a strategic advantage.",
-          "example_use_case": "Create a competitor analysis for an eco-friendly water bottle brand entering the U.S. market."
+          "title": "Next.js: Building Dynamic Web Applications",
+          "name": "Next.js",
+          "prompt": "Act as a Next.js specialist. Walk me through setting up a server-side rendered application in Next.js with integrated dynamic routing and API endpoints. Explain new features introduced in the 2024 release.",
+          "icon": null,
+          "use_case": "Assisting developers in leveraging the features of Next.js."
         },
         {
-          "title": "Customer Persona Development",
-          "prompt": "You are a marketing expert. Help me create detailed customer personas for [product/service]. Include demographics, psychographics, pain points, goals, preferred channels for outreach, and buying behaviors.",
-          "example_use_case": "Develop customer personas for an online language learning platform targeted at beginner-level English learners globally."
+          "title": "Mastering Angular for Enterprise Applications",
+          "name": "Angular",
+          "prompt": "You are an Angular guru. Describe how to build a scalable enterprise application with Angular in 2024, focusing on performance tuning, modular architecture, and state management.",
+          "icon": null,
+          "use_case": "Creating an enterprise-grade web application using Angular."
         },
         {
-          "title": "Business Proposal Drafting",
-          "prompt": "You are a professional business consultant. Help me draft a proposal to pitch [product/service idea] to [target audience, e.g., investors, stakeholders]. The proposal should include an executive summary, company overview, problem statement, solution, market analysis, and financial projections.",
-          "example_use_case": "I need to pitch a cloud-based inventory management system to medium-sized retailers. Create a professional business proposal draft."
+          "title": "Building APIs with Express.js",
+          "name": "Express.js",
+          "prompt": "You are a backend development expert. Outline how to create a secure and efficient RESTful API using Express.js. Highlight middleware implementations and advanced techniques available in 2024.",
+          "icon": null,
+          "use_case": "Developing scalable and secure backend APIs."
         },
         {
-          "title": "Strategic Partnership Proposal",
-          "prompt": "You are a business strategist. Help me write a professional partnership proposal to collaborate with [business/organization]. The proposal should include a clear value proposition, mutual benefits, potential outcomes, and terms of collaboration.",
-          "example_use_case": "Draft a strategic partnership proposal between a local farmers' market and a meal planning app."
-        }
-      ]
-    },
-    {
-      "category": "Creativity",
-      "description": "Generate ideas, content, and stories.",
-      "examples": [
-        {
-          "title": "Brainstorming Innovative Product Ideas",
-          "prompt": "You are an innovator. Help me brainstorm [specific number] new product ideas in the [specific industry]. Provide some creative and actionable concepts with a brief explanation for each.",
-          "example_use_case": "Brainstorm 5 innovative product ideas in the personal wellness industry for 2024."
+          "title": "Introduction to Vue.js for Rapid Development",
+          "name": "Vue.js",
+          "prompt": "Act as a Vue.js instructor. Explain how to quickly set up and build an interactive user interface with the latest Vue.js release. Include tips on using Vue Router and Vuex for better state and routing management.",
+          "icon": null,
+          "use_case": "Guiding a developer in quickly prototyping and developing applications."
         },
         {
-          "title": "Content Calendar Planning",
-          "prompt": "You are a skilled content planner. Help me design a month-long content calendar for [specific platform(s), e.g., Instagram, Blog]. The content should include themes, post ideas, and engagement strategies for each day.",
-          "example_use_case": "Create an Instagram content calendar for a fitness coaching business with a motivational and educational tone."
-        },
-        {
-          "title": "Developing a Fictional World",
-          "prompt": "You are an experienced world-building expert. Help me design a detailed fictional universe for a [fantasy/sci-fi] story. Include the political structure, geography, cultural aspects, and a brief history.",
-          "example_use_case": "Create a fictional world for a high-fantasy novel centered on magic and ancient rivalries between kingdoms."
-        },
-        {
-          "title": "Creating Taglines and Slogans",
-          "prompt": "You are an advertising expert. Generate [specific number] taglines and slogans for [brand/product/service]. The tone should be [desired tone, e.g., futuristic, playful, inspiring], and the messaging should align with the brand's values.",
-          "example_use_case": "Generate 5 slogans for a sustainable clothing brand targeting Gen Z consumers."
-        },
-        {
-          "title": "Creative Writing Prompts",
-          "prompt": "You are a creative writing tutor. Provide [specific number] unique and engaging short story prompts for [genre]. Include a brief setup, key characters, and a conflict to resolve.",
-          "example_use_case": "Provide 3 short story prompts for a dystopian science-fiction anthology."
-        }
-      ]
-    },
-    {
-      "category": "Education",
-      "description": "Learn and practice topics efficiently.",
-      "examples": [
-        {
-          "title": "Math Problem Solver",
-          "prompt": "You are a math tutor. Explain step-by-step how to solve the following problem: [insert math problem]. Make the explanation easy to follow for a [specific education level, e.g., high school, college].",
-          "example_use_case": "Explain how to solve a quadratic equation and highlight when to use the quadratic formula."
-        },
-        {
-          "title": "Exam Preparation Quiz",
-          "prompt": "You are an exam preparation expert for [subject]. Create a [specific type of exam, e.g., multiple choice, true/false] quiz containing [specific number] questions for me to practice. Provide answers and explanations afterward.",
-          "example_use_case": "Create a 10-question multiple-choice quiz on basic biology concepts with explanations for each answer."
-        },
-        {
-          "title": "Language Learning Practice",
-          "prompt": "You are a language tutor for [specific language]. Create a vocabulary list of [specific number] commonly used words/phrases related to [specific topic] with examples of how to use them in sentences.",
-          "example_use_case": "Create a list of 20 travel-related phrases in Spanish with example sentences."
-        },
-        {
-          "title": "History Teacher",
-          "prompt": "You are a history expert. Provide a detailed explanation of [historical event/topic]. Break it into a timeline or key steps to make it easy to understand for students.",
-          "example_use_case": "Explain the key events leading to the fall of the Roman Empire."
-        },
-        {
-          "title": "Study Plan Creation",
-          "prompt": "You are a study coach. Help me create a 4-week study plan to prepare for [specific exam/subject]. Include daily goals, topics to cover, and recommended resources.",
-          "example_use_case": "Create a study plan for the GRE math section with daily practice tasks."
-        }
-      ]
-    },
-    {
-      "category": "Productivity",
-      "description": "Organize tasks and manage workload efficiently.",
-      "examples": [
-        {
-          "title": "Daily Task Manager",
-          "prompt": "You are a productivity expert. Create a prioritized task list based on the following inputs: [list of tasks, deadlines, level of importance]. Suggest time allocations and include breaks where necessary.",
-          "example_use_case": "Help me prioritize my tasks for a packed Monday involving client calls, a report deadline, and personal errands."
-        },
-        {
-          "title": "Project Timeline Planner",
-          "prompt": "You are a project manager. Design a detailed timeline for completing [specific project]. Specify important milestones, deadlines, and steps to follow within [specific time frame].",
-          "example_use_case": "Plan a 6-month timeline for launching a new website, including design, content, and testing phases."
-        },
-        {
-          "title": "Time Blocking Schedule",
-          "prompt": "You are a time management specialist. Create a time-blocking schedule for my workday based on the following tasks and deadlines: [list of tasks and approximate time available].",
-          "example_use_case": "Create a time-blocking schedule for a full day to finish coding tasks, review meetings, and preparing a presentation."
-        },
-        {
-          "title": "Email Draft for Delegation",
-          "prompt": "You are a professional email assistant. Help me draft an email to delegate a task to [recipient]. Include all relevant details such as deadlines, expectations, and resources to assist them.",
-          "example_use_case": "Write a delegation email requesting a colleague to complete a sales report by Friday."
-        },
-        {
-          "title": "Weekly Reflection Template",
-          "prompt": "You are a productivity coach. Create a reflection template for reviewing my weekly performance. Include sections for accomplishments, lessons learned, unfinished tasks, and improvements for the next week.",
-          "example_use_case": "Create a template to review and improve my weekly productivity as a team manager."
-        }
-      ]
-    },
-    {
-    "category": "Programming",
-      "description": "Solve coding problems and create optimized scripts.",
-      "examples": [
-        {
-          "title": "C | Mastering Pointers and Memory Management",
-          "prompt": "You are a C programming expert. Explain how to use pointers effectively, including declaring and manipulating them. Also, demonstrate the use of `malloc`, `calloc`, and `free` for dynamic memory allocation, ensuring best practices to avoid memory leaks.",
-          "example_use_case": "Write a C program that dynamically allocates memory for an array, stores user inputs, and properly frees the memory after use."
-        },
-        {
-          "title": "Django | Working with Models and QuerySets",
-          "prompt": "You are a Django developer. Explain how to create models in Django, define relationships, and use QuerySets to perform CRUD (Create, Read, Update, Delete) operations. Include examples of filtering data and updating database records.",
-          "example_use_case": "Develop a Django application to manage a products database with search and filtering functionality in the admin dashboard."
-        },
-        {
-          "title": "Flask | Building a Minimal RESTful API",
-          "prompt": "You are a Flask developer. Describe how to create a RESTful API using Flask, including setting up route handlers for GET, POST, and DELETE requests. Use Flask-RESTful for better API structuring, and return JSON responses for client consumption.",
-          "example_use_case": "Build a Flask-based to-do list API that supports adding tasks, deleting tasks, and retrieving the current list of tasks in JSON format."
-        },
-        {
-          "title": "Go | Using Goroutines and Channels",
-          "prompt": "You are a Go (Golang) developer. Explain the fundamentals of Go's concurrency primitives, including goroutines and channels. Provide an example to launch multiple goroutines that calculate the sum of subsets of an array and combine their results.",
-          "example_use_case": "Use Go’s concurrency model to build scalable applications that process data in parallel for optimal performance."
-        },
-        {
-          "title": "Java | Object-Oriented Programming and Exception Handling",
-          "prompt": "You are a Java expert. Explain core Java concepts including object-oriented programming principles, inheritance, and exception handling. Provide code examples to demonstrate how to create classes, catch and handle exceptions, and design reusable methods.",
-          "example_use_case": "Learn how to write robust and reusable Java applications using OOP and proper error-handling techniques."
-        },
-        {
-          "title": "JavaScript | ES6+ Features and DOM Manipulation",
-          "prompt": "You are a JavaScript expert. Explain modern ES6+ features such as `let`, `const`, arrow functions, destructuring, template literals, and Promises. Then demonstrate how to manipulate the DOM to build dynamic interactive web pages.",
-          "example_use_case": "Use JavaScript to add dynamic functionality like form validation and interactive UI elements to web applications."
-        },
-        {
-          "title": "Laravel | Building a CRUD Application",
-          "prompt": "You are a Laravel developer. Explain how to set up a basic CRUD application using Laravel. Cover routing, controllers, Eloquent models, and blade templates. Provide an example of creating, reading, updating, and deleting `Post` objects in a blog.",
-          "example_use_case": "Build a Laravel-based blog platform with a user-friendly dashboard for managing posts."
-        },
-        {
-          "title": "Node.js | File System Operations with `fs` Module",
-          "prompt": "You are a Node.js expert. Explain how to use the `fs` module for basic file system operations, like reading, writing, renaming, and deleting files. Provide examples of asynchronous operations using Promises or callbacks.",
-          "example_use_case": "Write a Node.js program that reads user data from a text file, appends timestamps, and writes the updated contents to a new file."
-        },
-        {
-          "title": "PHP | File Upload Validation and Handling",
-          "prompt": "You are a PHP developer. Explain how to build a secure file upload handler. Include validation techniques for file size and type, error handling, saving uploaded files to a server, and providing feedback to users.",
-          "example_use_case": "Create a PHP-based file upload form that accepts image files and rejects unsupported formats or oversized files."
-        },
-        {
-          "title": "Python | Data Structures and File Handling",
-          "prompt": "You are a Python expert. Explain essential Python concepts such as lists, dictionaries, and tuples, and how to handle files (e.g., reading and writing text files). Provide examples for processing and analyzing structured data efficiently.",
-          "example_use_case": "Use Python to automate tasks like parsing large text files and processing data into structures like dictionaries."
-        },
-        {
-          "title": "Qt | Structuring Applications with C++ and QML",
-          "prompt": "You are a Qt developer specializing in Qt version 6.7. Explain how to structure a Qt application where C++ serves as the backend and QML as the frontend. Provide best practices for managing communication between the two layers using QObject, signals, and slots.",
-          "example_use_case": "Build a Qt desktop application where user interface events in QML trigger C++ backend logic for dynamic data handling."
-        },
-        {
-          "title": "React + TypeScript | Building Type-Safe Components",
-          "prompt": "You are a React developer using TypeScript. Explain how to create functional components with props and state typing. Provide a reusable component example with `prop` validations and type enforcement for handling events like a button click.",
-          "example_use_case": "Develop a React component in TypeScript that displays a type-safe list of users retrieved from an API."
-        },
-        {
-          "title": "Rust | Error Handling with `Result` and `Option`",
-          "prompt": "You are a Rust expert. Explain how to utilize `Result` and `Option` enums for error handling. Showcase examples of safely reading data from a file and handling errors like missing files or invalid formats, using the `?` operator and pattern matching.",
-          "example_use_case": "Write a Rust program that reads configuration settings from a file, validates them, and handles missing keys gracefully."
-        },
-        {
-          "title": "TypeScript | Type Safety and Interfaces",
-          "prompt": "You are a TypeScript developer. Explain how to create type-safe applications by using interfaces, type annotations, and generics. Showcase an example where strong typing prevents runtime errors in a function that processes user objects.",
-          "example_use_case": "Write a strongly-typed function in TypeScript that validates and processes a list of user objects with predictable behavior."
+          "title": "Django: Full-Stack Python Web Development",
+          "name": "Django",
+          "prompt": "You are a Django expert. Provide a comprehensive guide to developing a full-stack web application using Django in 2024, including database design, deploying with modern tools, and best practices for security and performance.",
+          "icon": null,
+          "use_case": "Building a robust full-stack application using Python."
         }
       ]
     }
   ]
 }
+```
