@@ -3,7 +3,7 @@
     {
       "category": "Web Development Frameworks",
       "description": "Generate prompts for frameworks like Laravel, Node.js.",
-      "icon": null,
+      "icon": "world-www",
       "examples": [
         {
           "title": "Laravel Project Setup",
@@ -16,28 +16,28 @@
           "title": "Building APIs with Node.js",
           "name": "Node.js",
           "prompt": "Provide a detailed guide on how to build a RESTful API with Node.js and Express.js, including implementing CRUD operations and error handling.",
-          "icon": null,
+          "icon": "file-type-php.svg",
           "use_case": "Ideal for those creating server-side APIs with Node.js."
         },
         {
           "title": "Styling in React.js",
           "name": "React.js",
           "prompt": "List the different ways to add styles in a React.js application and discuss the pros and cons of CSS, CSS-in-JS libraries, and Styled Components.",
-          "icon": null,
+          "icon": "brand-react",
           "use_case": "For styling modern React apps efficiently."
         },
         {
           "title": "Vue.js Component Reusability",
           "name": "Vue.js",
           "prompt": "Explain how to create reusable components in Vue.js, including best practices for props and slots.",
-          "icon": null,
+          "icon": "brand-vue",
           "use_case": "To enhance code modularity and maintainability in Vue projects."
         },
         {
           "title": "Django ORM Basics",
           "name": "Django",
           "prompt": "Provide a beginner's guide to using Django's ORM, including creating models, querying the database, and managing migrations.",
-          "icon": null,
+          "icon": "brand-django",
           "use_case": "For new developers working with Django's database layer."
         }
       ]
@@ -46,7 +46,7 @@
     {
       "category": "Qt Framework 6.7",
       "description": "Prompts for Qt framework using C++ backend and QML frontend.",
-      "icon": null,
+      "icon": "square-rounded-letter-q",
       "examples": [
         {
           "title": "Setting Up a Qt Project",
@@ -95,7 +95,7 @@
     {
       "category": "Social Media Content Ideas",
       "description": "Prompts for creating engaging social media content.",
-      "icon": null,
+      "icon": "social",
       "examples": [
         {
           "title": "Daily Engagement Posts",
@@ -145,7 +145,7 @@
     {
       "category": "AI-Powered Job Interview Prep",
       "description": "Prompts to prepare for job interviews with AI guidance.",
-      "icon": null,
+      "icon": "checklist",
       "examples": [
         {
           "title": "Mock Interview for Software Engineers",
@@ -195,7 +195,7 @@
         {
       "category": "Travel Itinerary Creator",
       "description": "Prompts for generating personalized travel plans.",
-      "icon": null,
+      "icon": "sunset-2",
       "examples": [
         {
           "title": "Weekend Getaway Plans",
@@ -245,7 +245,7 @@
     {
       "category": "My Prompt",
       "description": "Create tailored prompts for any purpose.",
-      "icon": null,
+      "icon": "plus",
       "examples": [
         {
           "title": "New empty prompt",
