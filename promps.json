@@ -243,14 +243,14 @@
     },
 
     {
-      "category": "Custom Prompt Generation",
+      "category": "My Prompt",
       "description": "Create tailored prompts for any purpose.",
       "icon": null,
       "examples": [
         {
-          "title": "Crafting Personalized Prompts",
+          "title": "New empty prompt",
           "name": "Custom Prompt",
-          "prompt": "Explain how to structure and write a custom ChatGPT prompt tailored to a specific use case, covering key components like context, instruction, and desired outcome.",
+          "prompt": "Example: You are a helpful assistant.",
           "icon": null,
           "use_case": "For anyone looking to design effective and specific ChatGPT prompts."
         },
