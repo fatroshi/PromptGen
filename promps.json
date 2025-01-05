@@ -240,6 +240,49 @@
           "use_case": "For couples planning a romantic escape."
         }
       ]
+    },
+
+    {
+      "category": "Custom Prompt Generation",
+      "description": "Create tailored prompts for any purpose.",
+      "icon": null,
+      "examples": [
+        {
+          "title": "Crafting Personalized Prompts",
+          "name": "Custom Prompt",
+          "prompt": "Explain how to structure and write a custom ChatGPT prompt tailored to a specific use case, covering key components like context, instruction, and desired outcome.",
+          "icon": null,
+          "use_case": "For anyone looking to design effective and specific ChatGPT prompts."
+        },
+        {
+          "title": "Prompt Optimization Techniques",
+          "name": "Prompt Tuning",
+          "prompt": "Describe techniques for refining prompts to improve ChatGPT's responses, including how to iterate on focus areas, rephrasing instructions, and testing results.",
+          "icon": null,
+          "use_case": "For users who want better performance and relevance in ChatGPT's answers."
+        },
+        {
+          "title": "Generating Conversational Flows",
+          "name": "Conversation Design",
+          "prompt": "Create a guide for designing multi-turn conversational prompts that simulate complex dialogues or decision-making processes.",
+          "icon": null,
+          "use_case": "For building engaging and dynamic discussions with ChatGPT."
+        },
+        {
+          "title": "Industry-Specific Prompt Design",
+          "name": "Targeted Prompts",
+          "prompt": "Provide tips for constructing prompts aimed at specific industries (e.g., healthcare, education, e-commerce), ensuring relevance and utility.",
+          "icon": null,
+          "use_case": "For professionals seeking tailored solutions for their field."
+        },
+        {
+          "title": "Reusing and Adapting Prompts",
+          "name": "Reusable Prompts",
+          "prompt": "Explain how to design prompts that can be easily reused and adapted for different scenarios while maintaining quality and relevance.",
+          "icon": null,
+          "use_case": "For developers and users wanting scalable solutions."
+        }
+      ]
     }
   ]
 }
