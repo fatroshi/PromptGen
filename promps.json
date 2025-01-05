@@ -250,16 +250,7 @@
         {
           "title": "Create new prompt",
           "name": "My Prompt",
-          "prompt": "<b> Writing Effective Prompts:</b>
-                    <li> Be Specific:
-                      Avoid vague phrasing. Provide as much detail as necessary without overloading unnecessary information. 
-                    </li>
-                    <li> Iterate and Refine: 
-                      If the output isn’t exactly what you’re looking for, tweak your prompt to improve clarity or add missing details. 
-                    </li>
-                    <li> Use Step-by-Step Instructions: 
-                    For complex tasks, break down the instructions into steps (e.g., First summarize the article, then provide three key takeaways). Set Boundaries: If there’s something you want the model to avoid, make that clear (e.g., Do not include technical jargon).
-                    </li>"
+          "prompt": "<b> Writing Effective Prompts:</b> <li> Be Specific: Avoid vague phrasing. Provide as much detail as necessary without overloading unnecessary information. </li>"
           "icon": null,
           "use_case": "For anyone looking to design effective and specific ChatGPT prompts."
         },
