@@ -41,6 +41,56 @@
           "use_case": "For new developers working with Django's database layer."
         }
       ]
+    },
+
+    {
+      "category": "Qt Framework 6.7",
+      "description": "Prompts for Qt framework using C++ backend and QML frontend.",
+      "icon": null,
+      "examples": [
+        {
+          "title": "Setting Up a Qt Project",
+          "name": "Qt Setup",
+          "prompt": "Provide a step-by-step guide to setting up a new Qt 6.7 project with C++ as backend and QML for the frontend, including environment configuration.",
+          "icon": null,
+          "use_case": "For developers starting with Qt 6.7 projects."
+        },
+        {
+          "title": "Integrating C++ Backend with QML Frontend",
+          "name": "Qt Integration",
+          "prompt": "Explain how to establish communication between C++ backend and QML frontend in a Qt 6.7 project, with relevant examples.",
+          "icon": null,
+          "use_case": "For developers looking to bridge backend and UI."
+        },
+        {
+          "title": "Custom QML Components",
+          "name": "QML Components",
+          "prompt": "Describe how to create reusable and customizable QML components in Qt 6.7, including styling options.",
+          "icon": null,
+          "use_case": "To build modular and reusable UI components."
+        },
+        {
+          "title": "Signal and Slot Mechanism in Qt",
+          "name": "Signals and Slots",
+          "prompt": "Outline how the signal-slot mechanism works in Qt 6.7 and provide examples of using it for communication between backend and frontend.",
+          "icon": null,
+          "use_case": "To manage event-driven communication in Qt projects."
+        },
+        {
+          "title": "Animation in QML",
+          "name": "QML Animation",
+          "prompt": "Provide an overview of animation capabilities in QML for Qt 6.7. Include examples of transitions, property animations, and easing curves.",
+          "icon": null,
+          "use_case": "For developers enhancing UI with animations."
+        },
+        {
+          "title": "Accessing Databases in Qt",
+          "name": "Qt Database",
+          "prompt": "Explain how to connect and interact with databases in Qt 6.7 using C++, including performing CRUD operations with example code.",
+          "icon": null,
+          "use_case": "To enable data persistence in Qt applications."
+        }
+      ]
     }
   ]
 }
