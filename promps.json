@@ -91,6 +91,155 @@
           "use_case": "To enable data persistence in Qt applications."
         }
       ]
+    },
+    {
+      "category": "Social Media Content Ideas",
+      "description": "Prompts for creating engaging social media content.",
+      "icon": null,
+      "examples": [
+        {
+          "title": "Daily Engagement Posts",
+          "name": "Engagement",
+          "prompt": "Generate ideas for daily social media posts designed to engage your audience, such as polls, questions, and challenges.",
+          "icon": null,
+          "use_case": "To maintain consistent interaction on social media platforms."
+        },
+        {
+          "title": "Behind-the-Scenes Content",
+          "name": "BTS Content",
+          "prompt": "Create suggestions for showcasing behind-the-scenes aspects of your business or creative process to connect with your audience.",
+          "icon": null,
+          "use_case": "For building transparency and relatability on social platforms."
+        },
+        {
+          "title": "Trending Topics",
+          "name": "Trending Content",
+          "prompt": "Provide prompts for incorporating current events, memes, or viral challenges into your social media strategy.",
+          "icon": null,
+          "use_case": "To stay relevant and align your content with trending topics."
+        },
+        {
+          "title": "User-Generated Content Campaigns",
+          "name": "UGC",
+          "prompt": "Suggest creative ways to encourage user-generated content, such as branded hashtags or photo/video contests.",
+          "icon": null,
+          "use_case": "For leveraging audience contributions to grow engagement and brand awareness."
+        },
+        {
+          "title": "Educational Posts",
+          "name": "Educational",
+          "prompt": "Develop content ideas for sharing knowledge or tips related to your niche, such as tutorials, how-to guides, or industry insights.",
+          "icon": null,
+          "use_case": "To establish authority and provide value to your audience."
+        },
+        {
+          "title": "Content for Special Occasions",
+          "name": "Occasion-Specific",
+          "prompt": "Generate ideas for creating content tailored to specific holidays, major events, or anniversaries relevant to your brand.",
+          "icon": null,
+          "use_case": "To align your brand with timely and celebratory moments."
+        }
+      ]
+    },
+
+    {
+      "category": "AI-Powered Job Interview Prep",
+      "description": "Prompts to prepare for job interviews with AI guidance.",
+      "icon": null,
+      "examples": [
+        {
+          "title": "Mock Interview for Software Engineers",
+          "name": "Software Engineer",
+          "prompt": "Simulate a technical interview for a software engineering role, including coding challenges, system design questions, and behavioral questions.",
+          "icon": null,
+          "use_case": "For candidates applying to software engineering positions."
+        },
+        {
+          "title": "Behavioral Interview Question Practice",
+          "name": "Behavioral Questions",
+          "prompt": "Generate common behavioral interview questions using the STAR method and help craft structured answers with examples.",
+          "icon": null,
+          "use_case": "To prepare for behavioral interview rounds effectively."
+        },
+        {
+          "title": "Industry-Specific Interview Questions",
+          "name": "Industry-Specific",
+          "prompt": "Provide a list of typical interview questions and answers tailored to a specific industry, such as healthcare, finance, or marketing.",
+          "icon": null,
+          "use_case": "For tailoring prep material to specific industries."
+        },
+        {
+          "title": "Soft Skills Interview Prep",
+          "name": "Soft Skills",
+          "prompt": "Create prompts to practice answering questions about teamwork, communication, problem-solving, and leadership skills.",
+          "icon": null,
+          "use_case": "To highlight soft skills in non-technical interview rounds."
+        },
+        {
+          "title": "Executive-Level Interview Simulation",
+          "name": "Executive Roles",
+          "prompt": "Simulate interview questions and case studies tailored for C-level or senior leadership roles, focusing on strategy and decision-making.",
+          "icon": null,
+          "use_case": "For executives preparing for high-level positions."
+        },
+        {
+          "title": "AI Evaluation of Practice Responses",
+          "name": "AI Feedback",
+          "prompt": "Provide feedback on sample interview responses, offering areas of improvement, clarity, and articulation for better results.",
+          "icon": null,
+          "use_case": "To refine and enhance interview answer quality."
+        }
+      ]
+    },
+
+        {
+      "category": "Travel Itinerary Creator",
+      "description": "Prompts for generating personalized travel plans.",
+      "icon": null,
+      "examples": [
+        {
+          "title": "Weekend Getaway Plans",
+          "name": "Weekend Trips",
+          "prompt": "Generate a detailed weekend travel itinerary for a specific destination, including recommendations for attractions, dining, and lodging.",
+          "icon": null,
+          "use_case": "For travelers planning short and rejuvenating trips."
+        },
+        {
+          "title": "Family-Friendly Vacations",
+          "name": "Family Trips",
+          "prompt": "Create a family-friendly travel itinerary, including activities for kids, group activities, and suitable accommodation options.",
+          "icon": null,
+          "use_case": "To plan trips that cater to families of all ages."
+        },
+        {
+          "title": "Adventure Travel Plans",
+          "name": "Adventure Trips",
+          "prompt": "Design an itinerary for an adventure-themed trip, including options for hiking, water sports, and outdoor activities.",
+          "icon": null,
+          "use_case": "For thrill-seekers looking for action-packed vacations."
+        },
+        {
+          "title": "Cultural Exploration Routes",
+          "name": "Cultural Tours",
+          "prompt": "Provide an itinerary focused on cultural experiences, such as visiting historical landmarks, museums, and local festivals.",
+          "icon": null,
+          "use_case": "For travelers interested in learning about new cultures."
+        },
+        {
+          "title": "Budget-Friendly Travel Plans",
+          "name": "Budget Trips",
+          "prompt": "Generate a cost-effective travel itinerary, including affordable accommodations, free attractions, and tips for saving money.",
+          "icon": null,
+          "use_case": "To plan enjoyable trips without spending a fortune."
+        },
+        {
+          "title": "Romantic Getaway Itinerary",
+          "name": "Romantic Trips",
+          "prompt": "Plan a romantic travel itinerary for couples, including cozy accommodations, scenic spots, and date night ideas.",
+          "icon": null,
+          "use_case": "For couples planning a romantic escape."
+        }
+      ]
     }
   ]
 }
