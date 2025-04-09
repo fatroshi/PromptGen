@@ -148,6 +148,22 @@
           "use_case": "For couples planning a romantic escape."
         }
       ]
+    },
+
+    {
+      "category": "Email Replies",
+      "description": "Enhance and craft professional emails",
+      "icon": "mail-ai",
+      "examples": [
+        {
+          "title": "Email Rewriting",
+          "name": "Professional Email Response",
+          "prompt": "I will describe the content of an email I want to send. Your task is to rewrite it in a professional, clear, and polite manner. Ensure the tone is appropriate for business communication and that the language is grammatically correct. If the email includes a request, make sure it is presented courteously but clearly. If it's a reply to an email, include a suitable opening thank-you line followed by a relevant response. Feel free to ask me for more details if anything is unclear.",
+          "icon": "mail-ai",
+          "use_case": "For users who want to improve their email writing in a professional context."
+        }
+      ]
     }
+
   ]
 }
