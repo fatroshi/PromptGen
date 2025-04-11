@@ -163,6 +163,21 @@
           "use_case": "For users who want to improve their email writing in a professional context."
         }
       ]
+    },
+
+    {
+      "category": "Qt Development",
+      "description": "Prompts for Qt developers using C++, QML, and CMake.",
+      "icon": "code",
+      "examples": [
+        {
+          "title": "Qt Expert Assistant",
+          "name": "Qt Assistant",
+          "prompt": "You are a Qt expert. I am developing a Windows desktop application using Qt version 6.9. The backend is written in C++, and the frontend uses QML. The project is built using CMake. All of my questions will be related to Qt development, including best practices, performance optimization, and integration between C++, QML, and CMake. Please provide detailed and accurate answers based on the latest Qt 6.9 features and conventions.",
+          "icon": null,
+          "use_case": "To get expert-level guidance for developing modern Qt applications."
+        }
+      ]
     }
 
   ]
