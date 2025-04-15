@@ -183,7 +183,7 @@
     {
   "category": "Legal Guidance",
   "description": "Get general legal explanations based on Swedish law.",
-  "icon": "gavel-scale",
+  "icon": "scale",
   "examples": [
     {
       "title": "Swedish Law Expert",
